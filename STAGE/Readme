@@ -1,0 +1,11 @@
+There are 4 files in here:
+
+The two pdfs are information from VELMEX on how to interface and operate the stage remotely.  This deals with what commands you can send to the stage.
+
+There are 2 ipynb notebooks.  One is Kamal's original notebook sent to Alison in June of 2022.
+
+The StageProgramTesting.ipynb notebook contains several functions for controlling the stage, including setting its origin, moving the stage, emergency stop, etc.  There are comments within that program describing how each function works.
+
+The stage connects via usb to the computer and then communicates with python through the serial port.  Once that port is open you write commands to that port to tell the stage where to move etc.  You can also read the position of the stage from that connection.
+
+This code relies on the pyserial libraries.
