@@ -1,0 +1,5 @@
+At the initial commit, there are 3 codes here:
+
+Run_OneNonLinearExperiment.ipynb Runs a single experiment for a single PUMP/probe amplitude assuming the function generator and oscilloscope are connected to the computer over the ethernet.
+Run_WithoutEthernet.ipynb is similar, but assumes a connection to the scopes via USB
+ComputeDelays.py is a set of codes to calculate the delays from the raw waveform data
